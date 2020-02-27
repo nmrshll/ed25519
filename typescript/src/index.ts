@@ -1,7 +1,5 @@
 import * as libEd from "ed25519-raw";
-// import { getMnemonic } from "bip39-ts";
 
-// export { mnemonic_phrase_to_entropy as seed_from_phrase } from "ed25519-sigs";
 export const seed_from_phrase = libEd.seed_from_phrase;
 
 export class KeyPair {
