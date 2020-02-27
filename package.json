@@ -1,0 +1,30 @@
+{
+  "name": "ed25519",
+  "version": "0.1.0",
+  "description": "ed25519",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bip39": "^3.0.2",
+    "ed25519xp": "file:typescript/src/ed_module_bundler"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.1",
+    "@types/jest": "^25.1.2",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.2.0",
+    "typescript": "^3.7.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmrshll/ed25519.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nmrshll/ed25519/issues"
+  },
+  "homepage": "https://github.com/nmrshll/ed25519#readme"
+}
