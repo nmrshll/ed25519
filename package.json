@@ -2,9 +2,9 @@
   "name": "ed25519",
   "version": "0.1.0",
   "description": "ed25519",
-  "main": "index.js",
+  "main": "typescript/dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "dependencies": {
     "bip39": "^3.0.2",
