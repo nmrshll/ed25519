@@ -7,7 +7,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const libEd = __importStar(require("ed25519xp"));
+const libEd = __importStar(require("ed25519-raw"));
 exports.seed_from_phrase = libEd.seed_from_phrase;
 class KeyPair {
     constructor(bytes) {

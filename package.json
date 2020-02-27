@@ -2,13 +2,14 @@
   "name": "ed25519",
   "version": "0.1.0",
   "description": "ed25519",
-  "main": "typescript/dist/index.js",
+  "main": "typescript/src/index.ts",
+  "types": "typescript/src/index.ts",
   "scripts": {
     "test": "jest"
   },
   "dependencies": {
     "bip39": "^3.0.2",
-    "ed25519xp": "file:typescript/src/ed_module_bundler"
+    "ed25519-raw": "git+ssh://git@github.com:cmanteiga/ed25519-raw.git"
   },
   "devDependencies": {
     "@types/node": "^13.7.1",
