@@ -2,20 +2,13 @@
   "name": "ed25519",
   "version": "0.1.0",
   "description": "ed25519",
-  "main": "typescript/src/index.ts",
+  "main": "typescript/dist/bundle.js",
   "types": "typescript/src/index.ts",
-  "scripts": {
-    "test": "jest"
-  },
   "dependencies": {
-    "bip39": "^3.0.2",
-    "ed25519-raw": "git+ssh://git@github.com:cmanteiga/ed25519-raw.git"
+    "ed25519xp": "file:typescript/deps/ed25519xp"
   },
   "devDependencies": {
     "@types/node": "^13.7.1",
-    "@types/jest": "^25.1.2",
-    "jest": "^25.1.0",
-    "ts-jest": "^25.2.0",
     "typescript": "^3.7.5",
     "@rollup/plugin-commonjs": "^11.0.2",
     "@rollup/plugin-multi-entry": "^3.0.0",
@@ -24,14 +17,5 @@
     "rollup": "^1.31.1",
     "rollup-plugin-typescript2": "^0.26.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nmrshll/ed25519.git"
-  },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/nmrshll/ed25519/issues"
-  },
-  "homepage": "https://github.com/nmrshll/ed25519#readme"
+  "license": "MIT"
 }

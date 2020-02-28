@@ -1,5 +1,6 @@
 .DEFAULT_GOAL=ts.build
 ts.build: deps
+	rm -rf typescript/dist/
 	node node_modules/.bin/rollup -c
 
 rm.deps:
