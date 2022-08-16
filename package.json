@@ -1,7 +1,7 @@
 {
-  "name": "ed25519",
+  "name": "ed25519ts",
   "version": "0.1.0",
-  "description": "ed25519",
+  "description": "ed25519ts",
   "main": "typescript/dist/bundle.js",
   "types": "typescript/src/index.ts",
   "dependencies": {
